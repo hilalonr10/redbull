@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4083A402BDE6D940003F2E6 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4083A3C2BDE6D930003F2E6 /* Inter-Regular.ttf */; };
+		F4083A412BDE6D940003F2E6 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4083A3D2BDE6D940003F2E6 /* Inter-Medium.ttf */; };
+		F4083A422BDE6D940003F2E6 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4083A3E2BDE6D940003F2E6 /* Inter-Bold.ttf */; };
+		F4083A432BDE6D940003F2E6 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4083A3F2BDE6D940003F2E6 /* Inter-SemiBold.ttf */; };
+		F4083A462BDE71520003F2E6 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4083A452BDE71520003F2E6 /* UIExtensions.swift */; };
 		F46E71BD2BDD3B070047D55F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E71BC2BDD3B070047D55F /* LoginView.swift */; };
+		F46E71C02BDD9D520047D55F /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E71BF2BDD9D520047D55F /* CategoryView.swift */; };
 		F4DC7C4F2BDCE870002C9D9A /* redbullApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C4E2BDCE870002C9D9A /* redbullApp.swift */; };
 		F4DC7C512BDCE870002C9D9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C502BDCE870002C9D9A /* ContentView.swift */; };
 		F4DC7C532BDCE872002C9D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC7C522BDCE872002C9D9A /* Assets.xcassets */; };
@@ -18,7 +24,7 @@
 		F4DC7C642BDD0319002C9D9A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F4DC7C632BDD0319002C9D9A /* FirebaseAnalyticsSwift */; };
 		F4DC7C662BDD0319002C9D9A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F4DC7C652BDD0319002C9D9A /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		F4DC7C682BDD0319002C9D9A /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F4DC7C672BDD0319002C9D9A /* FirebaseAppCheck */; };
-		F4DC7C742BDD081A002C9D9A /* SiginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C732BDD0819002C9D9A /* SiginView.swift */; };
+		F4DC7C742BDD081A002C9D9A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C732BDD0819002C9D9A /* SignUpView.swift */; };
 		F4DC7C762BDD089C002C9D9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4DC7C752BDD089B002C9D9A /* GoogleService-Info.plist */; };
 		F4DC7C782BDD09DC002C9D9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C772BDD09DC002C9D9A /* ProfileView.swift */; };
 		F4DC7C7A2BDD0A47002C9D9A /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C792BDD0A47002C9D9A /* HomeScreenView.swift */; };
@@ -28,20 +34,24 @@
 		F4DC7C822BDD0E16002C9D9A /* LoginViewViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C812BDD0E16002C9D9A /* LoginViewViewModels.swift */; };
 		F4DC7C842BDD0E3C002C9D9A /* SiginViewViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C832BDD0E3C002C9D9A /* SiginViewViewModels.swift */; };
 		F4DC7C862BDD0E66002C9D9A /* HomeScreenViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C852BDD0E66002C9D9A /* HomeScreenViewModels.swift */; };
-		F4DC7C882BDD0F66002C9D9A /* ExploreViewViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C872BDD0F66002C9D9A /* ExploreViewViewModels.swift */; };
 		F4DC7C8A2BDD0FAE002C9D9A /* ProfileViewViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C892BDD0FAE002C9D9A /* ProfileViewViewModels.swift */; };
-		F4DC7C8D2BDD33D3002C9D9A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7C8C2BDD33D3002C9D9A /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4083A3C2BDE6D930003F2E6 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		F4083A3D2BDE6D940003F2E6 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		F4083A3E2BDE6D940003F2E6 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		F4083A3F2BDE6D940003F2E6 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		F4083A452BDE71520003F2E6 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		F46E71BC2BDD3B070047D55F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F46E71BF2BDD9D520047D55F /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		F4DC7C4B2BDCE870002C9D9A /* redbull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redbull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DC7C4E2BDCE870002C9D9A /* redbullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbullApp.swift; sourceTree = "<group>"; };
 		F4DC7C502BDCE870002C9D9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4DC7C522BDCE872002C9D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DC7C552BDCE872002C9D9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4DC7C5C2BDCFABB002C9D9A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		F4DC7C732BDD0819002C9D9A /* SiginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginView.swift; sourceTree = "<group>"; };
+		F4DC7C732BDD0819002C9D9A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F4DC7C752BDD089B002C9D9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4DC7C772BDD09DC002C9D9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F4DC7C792BDD0A47002C9D9A /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
@@ -51,10 +61,8 @@
 		F4DC7C812BDD0E16002C9D9A /* LoginViewViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModels.swift; sourceTree = "<group>"; };
 		F4DC7C832BDD0E3C002C9D9A /* SiginViewViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiginViewViewModels.swift; sourceTree = "<group>"; };
 		F4DC7C852BDD0E66002C9D9A /* HomeScreenViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModels.swift; sourceTree = "<group>"; };
-		F4DC7C872BDD0F66002C9D9A /* ExploreViewViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewViewModels.swift; sourceTree = "<group>"; };
 		F4DC7C892BDD0FAE002C9D9A /* ProfileViewViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModels.swift; sourceTree = "<group>"; };
 		F4DC7C8B2BDD1C6E002C9D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		F4DC7C8C2BDD33D3002C9D9A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4083A3B2BDE6D620003F2E6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F4083A3E2BDE6D940003F2E6 /* Inter-Bold.ttf */,
+				F4083A3D2BDE6D940003F2E6 /* Inter-Medium.ttf */,
+				F4083A3C2BDE6D930003F2E6 /* Inter-Regular.ttf */,
+				F4083A3F2BDE6D940003F2E6 /* Inter-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F4083A442BDE711F0003F2E6 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				F4083A452BDE71520003F2E6 /* UIExtensions.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
 		F46E71BE2BDD44580047D55F /* log in */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 		F4DC7C422BDCE870002C9D9A = {
 			isa = PBXGroup;
 			children = (
+				F4083A442BDE711F0003F2E6 /* UICommon */,
+				F4083A3B2BDE6D620003F2E6 /* fonts */,
 				F4DC7C4D2BDCE870002C9D9A /* redbull */,
 				F4DC7C4C2BDCE870002C9D9A /* Products */,
 			);
@@ -143,7 +172,6 @@
 				F4DC7C812BDD0E16002C9D9A /* LoginViewViewModels.swift */,
 				F4DC7C832BDD0E3C002C9D9A /* SiginViewViewModels.swift */,
 				F4DC7C852BDD0E66002C9D9A /* HomeScreenViewModels.swift */,
-				F4DC7C872BDD0F66002C9D9A /* ExploreViewViewModels.swift */,
 				F4DC7C892BDD0FAE002C9D9A /* ProfileViewViewModels.swift */,
 			);
 			path = ViewModels;
@@ -154,9 +182,9 @@
 			children = (
 				F46E71BE2BDD44580047D55F /* log in */,
 				F4DC7C502BDCE870002C9D9A /* ContentView.swift */,
-				F4DC7C8C2BDD33D3002C9D9A /* HeaderView.swift */,
 				F46E71BC2BDD3B070047D55F /* LoginView.swift */,
-				F4DC7C732BDD0819002C9D9A /* SiginView.swift */,
+				F4DC7C732BDD0819002C9D9A /* SignUpView.swift */,
+				F46E71BF2BDD9D520047D55F /* CategoryView.swift */,
 				F4DC7C772BDD09DC002C9D9A /* ProfileView.swift */,
 				F4DC7C792BDD0A47002C9D9A /* HomeScreenView.swift */,
 				F4DC7C7B2BDD0C6E002C9D9A /* ExploreView.swift */,
@@ -233,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DC7C5D2BDCFABB002C9D9A /* Launch Screen.storyboard in Resources */,
+				F4083A402BDE6D940003F2E6 /* Inter-Regular.ttf in Resources */,
+				F4083A412BDE6D940003F2E6 /* Inter-Medium.ttf in Resources */,
+				F4083A422BDE6D940003F2E6 /* Inter-Bold.ttf in Resources */,
+				F4083A432BDE6D940003F2E6 /* Inter-SemiBold.ttf in Resources */,
 				F4DC7C762BDD089C002C9D9A /* GoogleService-Info.plist in Resources */,
 				F4DC7C562BDCE872002C9D9A /* Preview Assets.xcassets in Resources */,
 				F4DC7C532BDCE872002C9D9A /* Assets.xcassets in Resources */,
@@ -248,6 +280,7 @@
 			files = (
 				F4DC7C7E2BDD0D08002C9D9A /* Users.swift in Sources */,
 				F4DC7C822BDD0E16002C9D9A /* LoginViewViewModels.swift in Sources */,
+				F46E71C02BDD9D520047D55F /* CategoryView.swift in Sources */,
 				F4DC7C7C2BDD0C6E002C9D9A /* ExploreView.swift in Sources */,
 				F46E71BD2BDD3B070047D55F /* LoginView.swift in Sources */,
 				F4DC7C512BDCE870002C9D9A /* ContentView.swift in Sources */,
@@ -256,10 +289,9 @@
 				F4DC7C782BDD09DC002C9D9A /* ProfileView.swift in Sources */,
 				F4DC7C842BDD0E3C002C9D9A /* SiginViewViewModels.swift in Sources */,
 				F4DC7C7A2BDD0A47002C9D9A /* HomeScreenView.swift in Sources */,
-				F4DC7C8D2BDD33D3002C9D9A /* HeaderView.swift in Sources */,
+				F4083A462BDE71520003F2E6 /* UIExtensions.swift in Sources */,
 				F4DC7C4F2BDCE870002C9D9A /* redbullApp.swift in Sources */,
-				F4DC7C882BDD0F66002C9D9A /* ExploreViewViewModels.swift in Sources */,
-				F4DC7C742BDD081A002C9D9A /* SiginView.swift in Sources */,
+				F4DC7C742BDD081A002C9D9A /* SignUpView.swift in Sources */,
 				F4DC7C8A2BDD0FAE002C9D9A /* ProfileViewViewModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +430,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = redbull/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -433,6 +467,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = redbull/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

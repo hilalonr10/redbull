@@ -17,7 +17,8 @@ struct LoginView: View {
                     NavigationView {
                 ZStack {
                     Color.logininview
-                        .edgesIgnoringSafeArea(.all)
+                        .ignoresSafeArea()
+                                    
                     
                     VStack {
                         Image("loginlogo")
@@ -36,14 +37,14 @@ struct LoginView: View {
                                     .textFieldStyle(PlainTextFieldStyle())
                                     .padding(.bottom, 10)
                                     .colorInvert()
-                                Button(action: {
+                                Button( action:{
                                     // Action to perform when the login button is tapped
                                 }) {
                                     ZStack {
                                         RoundedRectangle(cornerRadius: 20)
                                             .foregroundColor(.red)
                                             .frame(height: 50)
-                                            .padding(.horizontal, 50)
+                                            .padding(.horizontal, 10)
                                         Text("Log in")
                                             .bold()
                                             .foregroundColor(.white)
@@ -64,7 +65,7 @@ struct LoginView: View {
                                 Text("Don't you have an account?")
                                     .foregroundColor(.blue)
                                     .padding(.horizontal,30)
-                                NavigationLink("Sign in", destination: SiginView())
+                                NavigationLink("Sign Up", destination: SignUpView())
                                     .font(.title2)
                                     .foregroundColor(.white)
                                     .background(.blue)
@@ -75,10 +76,15 @@ struct LoginView: View {
                     .padding()
                 }
             }
-            .navigationBarHidden(true)
+                  
+            .navigationTitle("")
+                   .navigationBarBackButtonHidden(true)
+                   .navigationBarHidden(true)
+                   .ignoresSafeArea()
         }
     }
 
 #Preview {
     LoginView()
+    
 }
